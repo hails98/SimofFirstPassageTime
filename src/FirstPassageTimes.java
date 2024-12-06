@@ -85,7 +85,12 @@ public class FirstPassageTimes {
     return min_index;
   }
 
-  //helper method for selectionSort (swap two values in array to help with sorting)
+  /**
+   * helper method for selectionSort (swap two values in array to help with sorting)
+   * @param array
+   * @param first_index
+   * @param second_index
+   */
   static void swap(int[] array, int first_index, int second_index) {
     int temp = array[first_index];
     array[first_index] = array[second_index];
